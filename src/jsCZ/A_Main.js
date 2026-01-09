@@ -1043,7 +1043,7 @@ class VoiceFactoryGame {
         } else if (transcript.includes("zluty") || transcript.includes("žlutý")) {
             this.KabZolty.style.display = "block";
             this.kableAnswear();
-        } else if (transcript.includes("temne modry") || transcript.includes("tmavě modrý")) {
+        } else if (transcript.includes("temne modry") || transcript.includes("tmavě")) {
             this.KabGranatowy.style.display = "block";
             this.kableAnswear();
         } else if (transcript.includes("sedy") || transcript.includes("šedý")) {
@@ -1937,4 +1937,5 @@ document.addEventListener('DOMContentLoaded', function () {
             DialogSystem.hide();
         }
     });
+
 });
