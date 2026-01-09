@@ -1079,7 +1079,7 @@ class VoiceFactoryGame {
         }
     }
     endKableGame() {
-        if (this.EngMode === false) customAlert.success(`🎉 Gratulace! Stroj je plně funkční. Zkontrolujte, které stroje je třeba dále opravit. Obdrželi jste také odznak!`, "Kable naprawione");
+        if (this.EngMode === false) customAlert.success(`🎉 Gratulace! Stroj je plně funkční. Zkontrolujte, které stroje je třeba dále opravit. Obdrželi jste také odznak!`, "Kabely jsou opraveny");
         else customAlert.success1(`🎉 Congratulations! The machine is fully operational. Check which machines need to be repaired next. You also received a badge!`, "Cables Repaired");
         this.machineBtn2.style.display = "none";
         this.KableNap.style.display = "block";
@@ -1937,5 +1937,4 @@ document.addEventListener('DOMContentLoaded', function () {
             DialogSystem.hide();
         }
     });
-
 });
