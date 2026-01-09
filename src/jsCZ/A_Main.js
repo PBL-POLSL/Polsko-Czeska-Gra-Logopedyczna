@@ -1937,5 +1937,4 @@ document.addEventListener('DOMContentLoaded', function () {
             DialogSystem.hide();
         }
     });
-
 });
