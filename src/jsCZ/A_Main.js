@@ -1048,7 +1048,7 @@ class VoiceFactoryGame {
             this.kableAnswear();
         } else if (transcript.includes("sedy") || transcript.includes("šedý")) {
             this.KabSzary.style.display = "block";
-            this.kableAnswea
+            this.kableAnswear();
         }else {
             if (this.EngMode === false) this.showFeedback("❌ Zkuste znovu!", "#ef4444");
             else this.showFeedback("❌ Try again!", "#ef4444");
@@ -1937,4 +1937,5 @@ document.addEventListener('DOMContentLoaded', function () {
             DialogSystem.hide();
         }
     });
+
 });
