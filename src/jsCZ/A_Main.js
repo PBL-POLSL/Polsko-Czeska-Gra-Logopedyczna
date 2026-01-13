@@ -807,7 +807,7 @@ class VoiceFactoryGame {
         if (this.EngMode === false) {
             DialogSystem.showSequence([
                 { speakerId: 'info', text: 'Dveře se otevírají s vrzáním. Uvnitř je všechno promíchané - listy s pokyny leží na podlaze a obrazovky zobrazují náhodné haraburdí písmen.  ' },
-                { speakerId: 'wlasciciel', text: 'W tym pomieszczeniu sabotażysta poplątał wszystkie instrukcje tak aby fabryka słów produkowała wadliwe słowa, musisz wypowiedzieć je poprawnie, aby przywrócić maszynę do normy. Poradzisz sobie?”' },
+                { speakerId: 'wlasciciel', text: 'V této místnosti sabotér popletl všechny instrukce, aby továrna na slova vyráběla vadná slova. Musíš je vyslovit správně, aby se stroj vrátil do normálu. Zvládneš to?' },
             ]);
         } else {
             //english
